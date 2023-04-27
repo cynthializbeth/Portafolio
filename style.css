@@ -139,8 +139,9 @@ h1 {
 .experiencia .columna:hover {
   color: white;
   text-align: justify;
-  background-color: #1b1b32;
+  background: linear-gradient(to right, rgba(255, 0, 106, 0.7), rgba(0, 124, 128, 0.7), rgba(0, 0, 255, 0.7), rgba(226, 10, 226, 0.7));
 }
+
 
 .experiencia i {
   font-size: 2.5rem;
@@ -169,7 +170,19 @@ h1 {
 /* Proyectos */
 
 .proyectos-recientes {
+  background-color: #04448d;
+  color: white;
   padding: 40px;
+}
+
+.proyectos-recientes .seccion-descripcion{
+  font-size: 1.5rem;
+  color: white;
+}
+
+.proyectos-recientes .seccion-titulo{
+  font-size: 2rem;
+  color: white;
 }
 
 .proyectos-recientes img {
@@ -204,10 +217,13 @@ h1 {
 
 .proyecto {
   position: relative;
+  color: black;
+  background: rgb(86, 138, 207);
 }
 
 .proyecto:hover img {
-  opacity: 0.2;
+  background: linear-gradient(to right, rgba(255, 0, 106, 0.7), rgba(0, 124, 128, 0.7), yellow, rgba(0, 0, 255, 0.7), rgba(226, 10, 226, 0.7));
+  opacity: 0.4;
 }
 
 .proyecto:hover .overlay {
